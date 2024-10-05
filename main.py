@@ -2,7 +2,7 @@ with open("econ_concepts.csv") as fp:
     lines = fp.readlines()[2:]
 
 with open("macro.html", "w") as dat:
-    dat.write("<h1>Micro terminology</h1>")
+    dat.write("<h1>Macro terminology</h1>")
 
     for line in lines:
         data = line.strip("\n").split(";")
