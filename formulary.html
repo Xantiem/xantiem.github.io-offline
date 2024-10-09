@@ -17,9 +17,9 @@
 
     <form>
         <label>I%:</label>
-        <input type="text" id="percentage" name="textInput" placeholder="I (%)">
+        <input type="text" pattern="[0-9]*" id="percentage" name="textInput" placeholder="I (%)">
         <label>N Years:</label>
-        <input type="text" id="n_years" name="textInput" placeholder="N (years)">
+        <input type="text" pattern="[0-9]*" id="n_years" name="textInput" placeholder="N (years)">
         <input type="button" value="Go" id="submit">
     </form>
     <p>Entered <span id="value_function">values</span> for <span id="value_percentage">I</span>% at <span id="value_n_years">N</span> years<strong id="value_answer"></strong></p>
