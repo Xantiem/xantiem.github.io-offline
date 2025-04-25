@@ -9,7 +9,7 @@ function goBack() {
 }
 
 function redirect() {
-    window.location.href='https://pornhub.com/gayporn/';
+    window.location.href='https://www.reddit.com/r/productivity/comments/qe0qhr/why_do_we_procrastinate_when_its_plainly_in_our/';
 }
 
 function declined() {
